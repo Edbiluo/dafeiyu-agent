@@ -1,0 +1,101 @@
+:root {
+  color: #ecf6ff;
+  background: #06151f;
+  font-family: Inter, "Microsoft YaHei", system-ui, sans-serif;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, textarea { font: inherit; }
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at 15% 10%, rgba(20, 151, 184, .22), transparent 32%),
+    radial-gradient(circle at 85% 85%, rgba(35, 92, 138, .24), transparent 35%),
+    linear-gradient(145deg, #071a26, #030b11 72%);
+  z-index: -1;
+}
+
+.shell { width: min(1040px, calc(100% - 32px)); margin: 32px auto; }
+.hero {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+.whale {
+  width: 72px;
+  height: 72px;
+  display: grid;
+  place-items: center;
+  border-radius: 22px;
+  color: #04202d;
+  font-size: 28px;
+  font-weight: 900;
+  background: linear-gradient(145deg, #76e5ee, #2aa8d1);
+  box-shadow: 0 12px 40px rgba(42, 168, 209, .24);
+}
+.eyebrow { margin: 0 0 5px; color: #67c9e7; font-size: 11px; letter-spacing: .18em; }
+h1 { margin: 0; font-size: clamp(30px, 5vw, 50px); line-height: 1; }
+.hero p:last-child { margin: 8px 0 0; color: #91aaba; }
+.status-dot {
+  padding: 9px 13px;
+  border: 1px solid #21475a;
+  border-radius: 999px;
+  color: #91dbe9;
+  background: rgba(8, 29, 40, .75);
+  font-size: 13px;
+}
+.chat-panel {
+  overflow: hidden;
+  border: 1px solid #173848;
+  border-radius: 24px;
+  background: rgba(4, 18, 27, .86);
+  box-shadow: 0 24px 90px rgba(0, 0, 0, .32);
+  backdrop-filter: blur(16px);
+}
+.timeline { height: min(58vh, 590px); overflow-y: auto; padding: 28px; }
+.empty { height: 100%; display: grid; place-content: center; gap: 8px; text-align: center; color: #688696; }
+.empty strong { color: #d6f5fa; font-size: 20px; }
+.message { max-width: 76%; margin: 0 0 20px; }
+.message > span { display: block; margin: 0 0 6px; color: #75c7dc; font-size: 12px; }
+.message p { margin: 0; padding: 14px 16px; border-radius: 6px 18px 18px 18px; line-height: 1.65; white-space: pre-wrap; }
+.message time { display: block; margin-top: 5px; color: #536e7a; font-size: 10px; }
+.message.user { margin-left: auto; }
+.message.user > span, .message.user time { text-align: right; }
+.message.user p { background: linear-gradient(145deg, #12617d, #174663); border-radius: 18px 6px 18px 18px; }
+.message.assistant p { background: #102935; border: 1px solid #183d4c; }
+.composer { display: grid; grid-template-columns: 160px 1fr auto; gap: 12px; padding: 18px; border-top: 1px solid #173848; background: #071923; }
+.composer label { color: #7695a5; font-size: 11px; }
+input, textarea { width: 100%; border: 1px solid #204353; color: #e9f8fa; background: #07131a; outline: none; }
+input { margin-top: 5px; padding: 11px; border-radius: 10px; }
+textarea { min-height: 68px; resize: vertical; padding: 13px; border-radius: 12px; }
+input:focus, textarea:focus { border-color: #42b8d5; }
+button { align-self: end; height: 44px; padding: 0 18px; border: 0; border-radius: 12px; color: #03202c; background: #61d8e7; font-weight: 800; cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: .45; }
+
+@media (max-width: 720px) {
+  .shell { width: min(100% - 20px, 1040px); margin: 16px auto; }
+  .hero { grid-template-columns: auto 1fr; }
+  .status-dot { grid-column: 1 / -1; justify-self: start; }
+  .composer { grid-template-columns: 1fr; }
+  .message { max-width: 90%; }
+}
+
+.memory-panel {
+  margin-top: 18px;
+  padding: 22px 24px;
+  border: 1px solid #173848;
+  border-radius: 20px;
+  background: rgba(4, 18, 27, .78);
+}
+.memory-panel h2 { margin: 0 0 14px; font-size: 18px; }
+.memory-panel ul { display: grid; gap: 9px; margin: 0; padding: 0; list-style: none; }
+.memory-panel li { padding: 11px 13px; border-radius: 10px; color: #bcd7df; background: #0c2531; }
+.memory-panel li span { margin-right: 9px; color: #62d2e2; font-size: 11px; text-transform: uppercase; }
+.memory-empty { margin: 0; color: #688696; }

@@ -1,0 +1,15 @@
+{
+  "default": "q",
+  "skins": {
+    "q": {
+      "label": "Q版",
+      "source": "鲸鱼娘-DeepSeek-Q版立绘.webp",
+      "runtime": "dafeiyu-q-transparent.png"
+    },
+    "mature": {
+      "label": "成熟版",
+      "source": "dafeiyu-whale-girl.png",
+      "runtime": "dafeiyu-whale-girl-transparent.png"
+    }
+  }
+}

@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">大肥鱼原创拟人化桌宠角色</title>
+  <desc id="desc">蓝青色短发、鲸尾披风和深海工程师连帽服的Q版拟人角色</desc>
+  <defs>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8ff5ff"/>
+      <stop offset="0.45" stop-color="#35cbe0"/>
+      <stop offset="1" stop-color="#146d9f"/>
+    </linearGradient>
+    <linearGradient id="hairShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#238fbd"/>
+      <stop offset="1" stop-color="#103b68"/>
+    </linearGradient>
+    <linearGradient id="hoodie" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#123f5d"/>
+      <stop offset="1" stop-color="#071d35"/>
+    </linearGradient>
+    <linearGradient id="fin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#54d8ed"/>
+      <stop offset="1" stop-color="#155b91"/>
+    </linearGradient>
+    <linearGradient id="tail" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#278db7"/>
+      <stop offset="0.55" stop-color="#124b7d"/>
+      <stop offset="1" stop-color="#071d46"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff4ec"/>
+      <stop offset="1" stop-color="#f4cfc7"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#76efff" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#1d8fb3" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#03111e" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+
+  <!-- ambient deep-sea particles -->
+  <ellipse cx="455" cy="1015" rx="250" ry="38" fill="#071724" opacity="0.36" filter="url(#shadow)"/>
+  <circle cx="450" cy="455" r="390" fill="url(#glow)" opacity="0.26"/>
+  <g fill="none" stroke="#62dbea" stroke-width="5" opacity="0.55">
+    <circle cx="155" cy="250" r="17"/><circle cx="112" cy="310" r="9"/>
+    <circle cx="760" cy="205" r="13"/><circle cx="790" cy="260" r="7"/>
+    <circle cx="125" cy="735" r="12"/><circle cx="782" cy="690" r="18"/>
+  </g>
+  <g fill="#a0f8ff">
+    <path d="M174 191l7 15 15 7-15 7-7 15-7-15-15-7 15-7z" opacity="0.75"/>
+    <path d="M726 340l5 11 11 5-11 5-5 11-5-11-11-5 11-5z" opacity="0.65"/>
+  </g>
+
+  <!-- whale-tail cape behind the body -->
+  <g filter="url(#soft)">
+    <path d="M540 588c82 40 150 97 181 179 17 46 15 94-1 134-33-54-82-80-137-78 17 48 6 105-27 154-19-91-68-145-142-169z" fill="url(#tail)" stroke="#52c9de" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M700 786c-36-20-74-23-117-12M590 817c-17 35-25 73-24 111" fill="none" stroke="#71dbea" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+    <path d="M646 732c21 16 40 36 52 61" fill="none" stroke="#f3a84e" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- hood and side fins -->
+  <g filter="url(#soft)">
+    <path d="M284 399c-76 6-137 54-157 123 47-16 87-6 122 31z" fill="url(#fin)" stroke="#8eeaf2" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M614 399c76 6 137 54 157 123-47-16-87-6-122 31z" fill="url(#fin)" stroke="#8eeaf2" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M243 437c4-173 92-278 207-278s203 105 207 278l-64 89H307z" fill="url(#hoodie)" stroke="#2e8db0" stroke-width="9"/>
+    <path d="M334 224c-20-56-3-111 43-139 4 38 23 61 60 75z" fill="url(#fin)" stroke="#8eeaf2" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M566 224c20-56 3-111-43-139-4 38-23 61-60 75z" fill="url(#fin)" stroke="#8eeaf2" stroke-width="8" stroke-linejoin="round"/>
+  </g>
+
+  <!-- hair back mass -->
+  <path d="M258 395c0-151 79-252 192-252s192 101 192 252c0 117-60 198-192 198s-192-81-192-198z" fill="url(#hairShade)" stroke="#0d4e79" stroke-width="8"/>
+
+  <!-- face -->
+  <ellipse cx="450" cy="371" rx="153" ry="166" fill="url(#skin)" stroke="#eabcb4" stroke-width="7"/>
+
+  <!-- side hair -->
+  <path d="M293 288c-35 82-34 177 17 250 39-21 65-60 75-108-24-49-25-98-3-147z" fill="url(#hair)" stroke="#177da8" stroke-width="7"/>
+  <path d="M607 288c35 82 34 177-17 250-39-21-65-60-75-108 24-49 25-98 3-147z" fill="url(#hair)" stroke="#177da8" stroke-width="7"/>
+
+  <!-- fringe with circuit clips -->
+  <path d="M300 311c5-114 65-183 151-183 91 0 148 67 151 181-35-50-75-79-122-89-10 43-40 76-89 101 4-33-2-62-17-87-12 37-36 64-74 77z" fill="url(#hair)" stroke="#177da8" stroke-width="8" stroke-linejoin="round"/>
+  <g fill="none" stroke="#f3b055" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M327 249h31v-22h27"/>
+    <circle cx="390" cy="227" r="7" fill="#f3b055" stroke="none"/>
+    <path d="M540 236h-24v24h-20"/>
+    <circle cx="490" cy="260" r="7" fill="#f3b055" stroke="none"/>
+  </g>
+
+  <!-- face details -->
+  <g stroke="#12334a" stroke-width="9" stroke-linecap="round">
+    <path d="M351 368c18-14 41-14 59 0" fill="none"/>
+    <path d="M490 368c18-14 41-14 59 0" fill="none"/>
+  </g>
+  <ellipse cx="381" cy="385" rx="14" ry="23" fill="#143a55"/>
+  <ellipse cx="519" cy="385" rx="14" ry="23" fill="#143a55"/>
+  <circle cx="386" cy="377" r="5" fill="#d5ffff"/>
+  <circle cx="524" cy="377" r="5" fill="#d5ffff"/>
+  <path d="M426 447c16 17 32 17 48 0" fill="none" stroke="#a85363" stroke-width="8" stroke-linecap="round"/>
+  <g fill="#ef9ba4" opacity="0.55">
+    <ellipse cx="349" cy="438" rx="32" ry="13"/>
+    <ellipse cx="551" cy="438" rx="32" ry="13"/>
+  </g>
+  <g fill="#fff" opacity="0.9">
+    <path d="M314 475c16 13 31 15 45 4-1 19-11 32-27 38z"/>
+    <path d="M586 475c-16 13-31 15-45 4 1 19 11 32 27 38z"/>
+  </g>
+
+  <!-- body: deep-sea engineer hoodie -->
+  <path d="M302 585c39-44 88-67 148-67s109 23 148 67l49 248c-50 38-116 57-197 57s-147-19-197-57z" fill="url(#hoodie)" stroke="#2a7898" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M350 550c18 40 51 61 100 61s82-21 100-61" fill="none" stroke="#61d8e7" stroke-width="8"/>
+  <path d="M348 566l-22 92M552 566l22 92" fill="none" stroke="#f3ad52" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="326" cy="670" r="11" fill="#f3ad52"/>
+  <circle cx="574" cy="670" r="11" fill="#f3ad52"/>
+
+  <!-- original agent-core emblem -->
+  <g transform="translate(450 694)">
+    <circle r="61" fill="#071826" stroke="#62ddeb" stroke-width="7"/>
+    <path d="M-29-4h21l15-20 17 46h22" fill="none" stroke="#6ee9ef" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="-38" cy="-4" r="7" fill="#f3ad52"/>
+    <circle cx="52" cy="22" r="7" fill="#f3ad52"/>
+  </g>
+
+  <!-- arms and mitten fins -->
+  <path d="M316 605c-61 24-98 77-105 156 36-8 68 4 96 35 26-49 37-102 33-158z" fill="url(#hoodie)" stroke="#2a7898" stroke-width="9"/>
+  <path d="M584 605c61 24 98 77 105 156-36-8-68 4-96 35-26-49-37-102-33-158z" fill="url(#hoodie)" stroke="#2a7898" stroke-width="9"/>
+  <path d="M206 745c-34 5-52 31-42 62 13 41 74 40 96 4 14-23-1-56-54-66z" fill="url(#fin)" stroke="#87e8ef" stroke-width="8"/>
+  <path d="M694 745c34 5 52 31 42 62-13 41-74 40-96 4-14-23 1-56 54-66z" fill="url(#fin)" stroke="#87e8ef" stroke-width="8"/>
+
+  <!-- shorts, legs, boots -->
+  <path d="M327 829h246l-11 105-101-1-11-62-11 62-101 1z" fill="#0b2a45" stroke="#2a7898" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M354 922l79-1-11 97h-91z" fill="#f4d4ca" stroke="#d9aba4" stroke-width="7"/>
+  <path d="M467 921l79 1 23 96h-91z" fill="#f4d4ca" stroke="#d9aba4" stroke-width="7"/>
+  <path d="M309 1008c40-22 82-22 126 0l-7 52H296c-13-20-9-37 13-52z" fill="#0b2940" stroke="#54cee2" stroke-width="8"/>
+  <path d="M591 1008c-40-22-82-22-126 0l7 52h132c13-20 9-37-13-52z" fill="#0b2940" stroke="#54cee2" stroke-width="8"/>
+  <path d="M316 1032h91M493 1032h91" stroke="#f3ad52" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- tiny floating agent orb -->
+  <g transform="translate(710 575)" filter="url(#soft)">
+    <circle r="46" fill="#092536" stroke="#66deeb" stroke-width="7"/>
+    <circle cx="-14" cy="-3" r="6" fill="#8ff6ff"/>
+    <circle cx="14" cy="-3" r="6" fill="#8ff6ff"/>
+    <path d="M-12 17c9 7 17 7 24 0" fill="none" stroke="#f2ad55" stroke-width="5" stroke-linecap="round"/>
+    <path d="M0-47v-18" stroke="#66deeb" stroke-width="6" stroke-linecap="round"/>
+    <circle cy="-71" r="7" fill="#f2ad55"/>
+  </g>
+</svg>

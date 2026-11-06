@@ -1,0 +1,22 @@
+{
+  "name": "@dafeiyu/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@dafeiyu/contracts": "workspace:*",
+    "@vitejs/plugin-react": "latest",
+    "vite": "8.3.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  }
+}

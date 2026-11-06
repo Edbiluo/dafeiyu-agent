@@ -1,0 +1,539 @@
+{
+  "source": "C:\\Users\\miles.xu\\Desktop\\my\\agent-op\\dafeiyu-agent\\apps\\desktop\\live2d\\dafeiyu-mature\\source\\whale-layers.psd",
+  "canvas": {
+    "width": 1117,
+    "height": 1858
+  },
+  "colorMode": "3",
+  "topLevelLayers": 44,
+  "layers": [
+    {
+      "name": "Face_Underpaint",
+      "kind": "pixel",
+      "visible": false,
+      "bbox": [
+        466,
+        185,
+        626,
+        388
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Eye_L_Iris_Full",
+      "kind": "pixel",
+      "visible": false,
+      "bbox": [
+        485,
+        289,
+        520,
+        328
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Eye_R_Iris_Full",
+      "kind": "pixel",
+      "visible": false,
+      "bbox": [
+        564,
+        282,
+        597,
+        319
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Eye_L_White_Full",
+      "kind": "pixel",
+      "visible": false,
+      "bbox": [
+        473,
+        288,
+        535,
+        330
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Eye_R_White_Full",
+      "kind": "pixel",
+      "visible": false,
+      "bbox": [
+        552,
+        278,
+        616,
+        320
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Mouth_Interior",
+      "kind": "pixel",
+      "visible": false,
+      "bbox": [
+        530,
+        346,
+        561,
+        383
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Mouth_Teeth",
+      "kind": "pixel",
+      "visible": false,
+      "bbox": [
+        532,
+        347,
+        559,
+        355
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Mouth_Tongue",
+      "kind": "pixel",
+      "visible": false,
+      "bbox": [
+        536,
+        365,
+        558,
+        382
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Body_Dress_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        126,
+        133,
+        953,
+        1729
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Tail_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        712,
+        835,
+        1021,
+        1261
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Hair_Back_L_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        180,
+        359,
+        489,
+        906
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Hair_Back_R_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        605,
+        350,
+        863,
+        931
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Arm_L_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        310,
+        443,
+        462,
+        800
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Arm_R_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        641,
+        447,
+        800,
+        810
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Cuff_L_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        245,
+        764,
+        364,
+        872
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Cuff_R_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        729,
+        765,
+        826,
+        878
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Hand_L_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        207,
+        823,
+        305,
+        943
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Hand_R_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        770,
+        826,
+        869,
+        948
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Leg_L_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        464,
+        1509,
+        553,
+        1735
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Leg_R_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        570,
+        1509,
+        648,
+        1737
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Apron_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        393,
+        641,
+        715,
+        1119
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Head_Hair_Back_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        410,
+        180,
+        669,
+        435
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Face_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        472,
+        236,
+        604,
+        375
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Neck_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        520,
+        369,
+        575,
+        407
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Fin_L_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        362,
+        286,
+        443,
+        363
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Fin_R_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        639,
+        289,
+        720,
+        348
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Hair_Front_L_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        428,
+        170,
+        529,
+        358
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Hair_Front_R_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        521,
+        170,
+        645,
+        364
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Hair_Front_Center_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        498,
+        170,
+        578,
+        306
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Hair_Side_L_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        471,
+        353,
+        510,
+        467
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Hair_Side_R_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        584,
+        347,
+        626,
+        470
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Headdress_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        418,
+        133,
+        654,
+        264
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Ahoge_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        422,
+        105,
+        533,
+        187
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Head_Bow_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        638,
+        257,
+        673,
+        298
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Eye_L_White_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        481,
+        305,
+        521,
+        320
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Eye_L_Iris_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        487,
+        302,
+        519,
+        322
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Eye_L_UpperLash_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        470,
+        292,
+        530,
+        315
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Eye_R_White_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        562,
+        293,
+        606,
+        309
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Eye_R_Iris_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        565,
+        289,
+        596,
+        314
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Eye_R_UpperLash_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        555,
+        282,
+        613,
+        299
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Eye_R_LowerLash_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        570,
+        312,
+        572,
+        313
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Brow_L_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        471,
+        266,
+        510,
+        279
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Brow_R_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        557,
+        259,
+        594,
+        269
+      ],
+      "depth": 0
+    },
+    {
+      "name": "Mouth_Contour_Visible",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        534,
+        350,
+        556,
+        354
+      ],
+      "depth": 0
+    }
+  ]
+}

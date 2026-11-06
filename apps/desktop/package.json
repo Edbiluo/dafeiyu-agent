@@ -1,0 +1,26 @@
+{
+  "name": "@dafeiyu/desktop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./out/main/index.js",
+  "scripts": {
+    "build": "pnpm build:main && pnpm build:preload && pnpm build:renderer",
+    "build:main": "esbuild src/main/index.ts --bundle --platform=node --format=esm --target=node24 --external:electron --outfile=out/main/index.js",
+    "build:preload": "esbuild src/preload/index.ts --bundle --platform=node --format=cjs --target=node24 --external:electron --outfile=out/preload/index.cjs",
+    "build:renderer": "esbuild src/renderer/src/main.tsx --bundle --format=esm --target=chrome142 --outdir=out/renderer/assets --entry-names=index && node scripts/copy-assets.mjs",
+    "dev": "pnpm build && electron .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@dafeiyu/contracts": "workspace:*",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "electron": "45.2.3",
+    "esbuild": "0.28.2"
+  }
+}

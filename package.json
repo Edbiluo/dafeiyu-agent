@@ -1,0 +1,27 @@
+{
+  "name": "dafeiyu-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A durable, multi-channel autonomous agent application.",
+  "type": "module",
+  "packageManager": "pnpm@12.16.1",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "dev:api": "pnpm --filter @dafeiyu/api dev",
+    "dev:desktop": "pnpm --filter @dafeiyu/desktop dev",
+    "dev:web": "pnpm --filter @dafeiyu/web dev",
+    "dev:worker": "pnpm --filter @dafeiyu/worker dev",
+    "infra:up": "docker compose -f infra/docker-compose.yml up -d",
+    "infra:down": "docker compose -f infra/docker-compose.yml down",
+    "smoke": "tsx scripts/smoke.ts",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "tsx": "^4.20.6",
+    "turbo": "^2.6.1",
+    "typescript": "^5.9.3"
+  }
+}

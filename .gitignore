@@ -1,0 +1,15 @@
+node_modules/
+.pnpm-store/
+.turbo/
+dist/
+.env
+.env.*
+!.env.example
+coverage/
+data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.db-wal
+*.db-shm

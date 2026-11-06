@@ -1,0 +1,15 @@
+{
+  "name": "@dafeiyu/queue",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@dafeiyu/contracts": "workspace:*",
+    "bullmq": "6.7.1",
+    "ioredis": "6.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@dafeiyu/model-openai-compatible",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@dafeiyu/agent-core": "workspace:*",
+    "openai": "^6.9.1"
+  }
+}

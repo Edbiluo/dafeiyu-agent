@@ -1,0 +1,17 @@
+{
+  "name": "@dafeiyu/persistence",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@dafeiyu/agent-core": "workspace:*",
+    "@dafeiyu/contracts": "workspace:*",
+    "@dafeiyu/conversation": "workspace:*",
+    "@dafeiyu/memory": "workspace:*",
+    "postgres": "4.1.0"
+  }
+}
